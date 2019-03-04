@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:MSSQL04
+Table=Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SKU" size="50" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="V_String" />
+            <Field name="DW_PRODUCT_ID" size="10" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="WString" />
+            <Field name="BP1210-QOH" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="Double" />
+            <Field name="BP1220-QOH" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="Double" />
+            <Field name="Total-QOH" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="Double" />
+            <Field name="display_name" size="100" source="File: aka:MSSQL04|||Select * From DATAWAREHOUSE.DemandWare.dbo.vw_US_JDE_DWRE_Inventory" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DW_PRODUCT_ID" selected="True" />
+            <SelectField field="Total-QOH" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'&lt;allocation-timestamp&gt;' + &#xA;DateTimeFormat(DateTimeNow(),'%Y-%m-%dT%H:%M:%S.000Z') + '&lt;/allocation-timestamp&gt;'&#xA;" field="allocation-timestamp" size="1000" type="V_WString" />
+            <FormulaField expression="'&lt;perpetual&gt;false&lt;/perpetual&gt;'" field="perpetual" size="1073741823" type="V_WString" />
+            <FormulaField expression="'&lt;record product-id=&quot;' + [DW_PRODUCT_ID] + '&quot;&gt;'" field="record_firstline" size="1073741823" type="V_WString" />
+            <FormulaField expression="'&lt;allocation&gt;' + ToString([Total-QOH], 0) + '&lt;/allocation&gt;'" field="allocation" size="1073741823" type="V_WString" />
+            <FormulaField expression="'&lt;/record&gt;'" field="record_lastline" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>allocation-timestamp = '&lt;allocation-timestamp&gt;' + 
+DateTimeFormat(DateTimeNow(),...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1158" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Pepperi\DemandwareInventoryExtract.xml</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>\0</Delimeter>
+            <ForceQuotes>Never</ForceQuotes>
+            <HeaderRow>False</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DemandwareInventoryExtract.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="618" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DW_PRODUCT_ID" selected="False" />
+            <SelectField field="Total-QOH" selected="False" />
+            <SelectField field="record_firstline" selected="True" size="1000" />
+            <SelectField field="allocation" selected="True" size="1000" />
+            <SelectField field="allocation-timestamp" selected="True" />
+            <SelectField field="perpetual" selected="True" size="1000" />
+            <SelectField field="record_lastline" selected="True" size="1000" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="786" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="record_firstline" selected="True" />
+            <Field field="allocation" selected="True" />
+            <Field field="allocation-timestamp" selected="True" />
+            <Field field="perpetual" selected="True" />
+            <Field field="record_lastline" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Value" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1038" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+            <Connection>#3</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="   value   " />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</c>
+            </r>
+            <r>
+              <c>&lt;inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31"&gt;</c>
+            </r>
+            <r>
+              <c><![CDATA[    <inventory-list>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[        <header list-id="dermalogica-us-inventory">]]></c>
+            </r>
+            <r>
+              <c><![CDATA[            <default-instock>false</default-instock>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[            <description>US Product SKU Inventory</description>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[             <use-bundle-inventory-only>false</use-bundle-inventory-only>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[             <on-order>false</on-order>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[       </header>]]></c>
+            </r>
+            <r>
+              <c>&lt;records&gt;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;/records&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/inventory-list&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/inventory&gt;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="True" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DemadwareproductInventory</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+      <Event>
+        <Description><![CDATA[After Run: Run cmd.exe ]]></Description>
+        <When>After</When>
+        <SendMail value="False" />
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <cmd_Program><![CDATA[C:\Windows\System32\cmd.exe ]]></cmd_Program>
+        <cmd_CommandLine><![CDATA[/c C:\scripts\FTP_DW_Inventory.bat ]]></cmd_CommandLine>
+        <cmd_WorkingDir>C:\scripts</cmd_WorkingDir>
+        <cmd_Timeout value="30" />
+      </Event>
+      <Event>
+        <Description>After Run With Errors: Email to dibyendu.meher@dermalogica.com;helpdesk@dermalogica.com</Description>
+        <When>AfterError</When>
+        <SendMail value="True" />
+        <email_SMTPServer>smtp.dermalogica.com</email_SMTPServer>
+        <email_From>alteryx.svc@dermalogica.com</email_From>
+        <email_To>dibyendu.meher@dermalogica.com;helpdesk@dermalogica.com</email_To>
+        <email_Subject>Alteryx - Demandware Product Inventory extract failure</email_Subject>
+        <email_Body><![CDATA[User: %User%
+ComputerName: %ComputerName%
+WorkingDir: %WorkingDir%
+Errors: %NumErrors%
+ConversionErrors: %NumConvErrors%
+Warnings: %Warnings%
+
+%OutputLog%
+]]></email_Body>
+        <email_Attachments />
+      </Event>
+    </Events>
+  </Properties>
+</AlteryxDocument>

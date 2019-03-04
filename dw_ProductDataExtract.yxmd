@@ -1,0 +1,1695 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="37">C:\Alteryx input\Catalog_dermalogica.xml</File>
+          <FormatSpecificOptions>
+            <ParseRoot>False</ParseRoot>
+            <OuterXML>True</OuterXML>
+            <IgnoreErrors>False</IgnoreErrors>
+            <XmlElement />
+            <ChildValues>True</ChildValues>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Catalog_dermalogica.xml</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product" size="311" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-id" size="10" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean_OuterXML" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc" size="13" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc_OuterXML" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit_OuterXML" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity_OuterXML" size="42" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="display-name_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_OuterXML" size="108" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description" size="529" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_OuterXML" size="589" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description" size="4999" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_OuterXML" size="5601" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="store-force-price-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-force-price-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag_OuterXML" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag_OuterXML" size="64" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag_OuterXML" size="38" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_OuterXML" size="40" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images" size="282" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images_OuterXML" size="5395" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_OuterXML" size="80" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes" size="152" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes_OuterXML" size="1712" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="custom-attributes" size="997" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="custom-attributes_OuterXML" size="15085" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="variations" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="variations_OuterXML" size="2650" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category" size="34" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category_OuterXML" size="121" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_OuterXML" size="52" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes" size="61" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes_OuterXML" size="280" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product_OuterXML" size="48365" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="classification-category_catalog-id" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2" size="5055" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2_OuterXML" size="5653" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3" size="4877" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_3_OuterXML" size="5475" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2" size="45" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id_OuterXML" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_OuterXML" size="94" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2" size="269" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2_OuterXML" size="325" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3" size="200" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_3_OuterXML" size="256" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4" size="4842" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_4_OuterXML" size="5440" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="brand" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="brand_OuterXML" size="29" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_OuterXML" size="73" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_OuterXML" size="76" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5" size="740" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_OuterXML" size="890" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options_OuterXML" size="663" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_OuterXML" size="63" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank_OuterXML" size="28" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4" size="120" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4_OuterXML" size="176" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_6" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products" size="48" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products_OuterXML" size="217" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2" size="4" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="174" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>custom-attributes_OuterXML</XMLField>
+          <XMLElement>custom-attribute</XMLElement>
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product" size="311" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-id" size="10" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean_OuterXML" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc" size="13" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc_OuterXML" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit_OuterXML" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity_OuterXML" size="42" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="display-name_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_OuterXML" size="108" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description" size="529" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_OuterXML" size="589" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description" size="4999" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_OuterXML" size="5601" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="store-force-price-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-force-price-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag_OuterXML" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag_OuterXML" size="64" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag_OuterXML" size="38" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_OuterXML" size="40" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images" size="282" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images_OuterXML" size="5395" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_OuterXML" size="80" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes" size="152" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes_OuterXML" size="1712" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="custom-attributes" size="997" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="custom-attributes_OuterXML" size="15085" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="variations" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="variations_OuterXML" size="2650" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category" size="34" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category_OuterXML" size="121" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_OuterXML" size="52" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes" size="61" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes_OuterXML" size="280" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product_OuterXML" size="48365" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="classification-category_catalog-id" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2" size="5055" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2_OuterXML" size="5653" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3" size="4877" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_3_OuterXML" size="5475" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2" size="45" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id_OuterXML" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_OuterXML" size="94" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2" size="269" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2_OuterXML" size="325" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3" size="200" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_3_OuterXML" size="256" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4" size="4842" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_4_OuterXML" size="5440" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="brand" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="brand_OuterXML" size="29" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_OuterXML" size="73" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_OuterXML" size="76" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5" size="740" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_OuterXML" size="890" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options_OuterXML" size="663" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_OuterXML" size="63" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank_OuterXML" size="28" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4" size="120" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4_OuterXML" size="176" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_6" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products" size="48" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products_OuterXML" size="217" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2" size="4" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="custom-attribute" size="3506" type="V_WString" />
+            <Field name="attribute-id" size="21" type="V_String" />
+            <Field name="xml:lang" size="9" type="V_String" />
+            <Field name="site-id" size="14" type="V_String" />
+            <Field name="value" size="11" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="product-id" selected="True" rename="dw_product_id" />
+            <SelectField field="ean" selected="True" size="50" />
+            <SelectField field="upc" selected="True" size="50" />
+            <SelectField field="unit" selected="True" size="50" />
+            <SelectField field="min-order-quantity" selected="True" />
+            <SelectField field="step-quantity" selected="True" />
+            <SelectField field="display-name" selected="True" rename="display_name" size="100" />
+            <SelectField field="short-description" selected="True" size="4000" />
+            <SelectField field="long-description" selected="True" size="5000" />
+            <SelectField field="store-force-price-flag" selected="True" />
+            <SelectField field="store-non-inventory-flag" selected="True" />
+            <SelectField field="store-non-revenue-flag" selected="True" />
+            <SelectField field="store-non-discountable-flag" selected="True" />
+            <SelectField field="online-flag" selected="True" rename="online_flag" />
+            <SelectField field="online-flag_2_site-id" selected="True" rename="online_flag_site" size="50" />
+            <SelectField field="available-flag" selected="True" />
+            <SelectField field="searchable-flag" selected="True" />
+            <SelectField field="page-attributes_OuterXML" selected="True" />
+            <SelectField field="custom-attributes" selected="True" />
+            <SelectField field="custom-attributes_OuterXML" selected="True" />
+            <SelectField field="brand" selected="True" size="50" />
+            <SelectField field="custom-attribute" selected="True" />
+            <SelectField field="attribute-id" selected="True" size="50" />
+            <SelectField field="site-id" selected="True" size="50" />
+            <SelectField field="page-title" selected="True" size="200" />
+            <SelectField field="page-description" selected="True" size="500" />
+            <SelectField field="page-keywords" selected="True" size="500" />
+            <SelectField field="page-url" selected="True" size="200" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1482" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">aka:MSSQL04-Alteryx|||[dbo].[dw_ProductDataExtract_Alteryx]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>True</IgnoreDropTableSQLErrors>
+            <PostSQL>SET ANSI_WARNINGS  ON;</PostSQL>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL>SET ANSI_WARNINGS  OFF;</PreSQL>
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:MSSQL04-Alteryx
+Table=[dbo].[dw_ProductDataExtract_Alteryx]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="618" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="dw_product_id" />
+            <Field field="site-id" />
+          </GroupFields>
+          <HeaderField field="attribute-id" />
+          <DataField field="custom-attribute" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dw_product_id" size="10" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="site-id" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="benefit1" size="2048" source="CrossTab:Header:attribute-id:benefit1:Concat:" type="V_WString" />
+            <Field name="benefit2" size="2048" source="CrossTab:Header:attribute-id:benefit2:Concat:" type="V_WString" />
+            <Field name="benefit3" size="2048" source="CrossTab:Header:attribute-id:benefit3:Concat:" type="V_WString" />
+            <Field name="categoryFeatured" size="2048" source="CrossTab:Header:attribute-id:categoryFeatured:Concat:" type="V_WString" />
+            <Field name="categoryProductSystem" size="2048" source="CrossTab:Header:attribute-id:categoryProductSystem:Concat:" type="V_WString" />
+            <Field name="categoryProductUse" size="2048" source="CrossTab:Header:attribute-id:categoryProductUse:Concat:" type="V_WString" />
+            <Field name="categorySkinConcern" size="2048" source="CrossTab:Header:attribute-id:categorySkinConcern:Concat:" type="V_WString" />
+            <Field name="howToUse" size="2048" source="CrossTab:Header:attribute-id:howToUse:Concat:" type="V_WString" />
+            <Field name="ingredients" size="2048" source="CrossTab:Header:attribute-id:ingredients:Concat:" type="V_WString" />
+            <Field name="isRewardProduct" size="2048" source="CrossTab:Header:attribute-id:isRewardProduct:Concat:" type="V_WString" />
+            <Field name="isSale" size="2048" source="CrossTab:Header:attribute-id:isSale:Concat:" type="V_WString" />
+            <Field name="isTaxExempt" size="2048" source="CrossTab:Header:attribute-id:isTaxExempt:Concat:" type="V_WString" />
+            <Field name="mediumDescription" size="2048" source="CrossTab:Header:attribute-id:mediumDescription:Concat:" type="V_WString" />
+            <Field name="notAvailable" size="2048" source="CrossTab:Header:attribute-id:notAvailable:Concat:" type="V_WString" />
+            <Field name="notAvailableLbl" size="2048" source="CrossTab:Header:attribute-id:notAvailableLbl:Concat:" type="V_WString" />
+            <Field name="notAvailableUrl" size="2048" source="CrossTab:Header:attribute-id:notAvailableUrl:Concat:" type="V_WString" />
+            <Field name="pdp_thumbnails_vid" size="2048" source="CrossTab:Header:attribute-id:pdp-thumbnails-vid:Concat:" type="V_WString" />
+            <Field name="pdpBelowContent" size="2048" source="CrossTab:Header:attribute-id:pdpBelowContent:Concat:" type="V_WString" />
+            <Field name="pdpTopContent" size="2048" source="CrossTab:Header:attribute-id:pdpTopContent:Concat:" type="V_WString" />
+            <Field name="productPress" size="2048" source="CrossTab:Header:attribute-id:productPress:Concat:" type="V_WString" />
+            <Field name="productVideo" size="2048" source="CrossTab:Header:attribute-id:productVideo:Concat:" type="V_WString" />
+            <Field name="productVideoImage" size="2048" source="CrossTab:Header:attribute-id:productVideoImage:Concat:" type="V_WString" />
+            <Field name="productVideoThumb" size="2048" source="CrossTab:Header:attribute-id:productVideoThumb:Concat:" type="V_WString" />
+            <Field name="PR_QandAURL" size="2048" source="CrossTab:Header:attribute-id:PR_QandAURL:Concat:" type="V_WString" />
+            <Field name="PR_ReviewURL" size="2048" source="CrossTab:Header:attribute-id:PR_ReviewURL:Concat:" type="V_WString" />
+            <Field name="quickTip" size="2048" source="CrossTab:Header:attribute-id:quickTip:Concat:" type="V_WString" />
+            <Field name="shade" size="2048" source="CrossTab:Header:attribute-id:shade:Concat:" type="V_WString" />
+            <Field name="shortDescription" size="2048" source="CrossTab:Header:attribute-id:shortDescription:Concat:" type="V_WString" />
+            <Field name="shortestDescription" size="2048" source="CrossTab:Header:attribute-id:shortestDescription:Concat:" type="V_WString" />
+            <Field name="size" size="2048" source="CrossTab:Header:attribute-id:size:Concat:" type="V_WString" />
+            <Field name="skinCondition1" size="2048" source="CrossTab:Header:attribute-id:skinCondition1:Concat:" type="V_WString" />
+            <Field name="skinCondition2" size="2048" source="CrossTab:Header:attribute-id:skinCondition2:Concat:" type="V_WString" />
+            <Field name="skinCondition3" size="2048" source="CrossTab:Header:attribute-id:skinCondition3:Concat:" type="V_WString" />
+            <Field name="SKU" size="2048" source="CrossTab:Header:attribute-id:SKU:Concat:" type="V_WString" />
+            <Field name="StarRating" size="2048" source="CrossTab:Header:attribute-id:StarRating:Concat:" type="V_WString" />
+            <Field name="StarRatingBase" size="2048" source="CrossTab:Header:attribute-id:StarRatingBase:Concat:" type="V_WString" />
+            <Field name="StarRatingCount" size="2048" source="CrossTab:Header:attribute-id:StarRatingCount:Concat:" type="V_WString" />
+            <Field name="valueSetPricing" size="2048" source="CrossTab:Header:attribute-id:valueSetPricing:Concat:" type="V_WString" />
+            <Field name="_Null_" size="2048" source="CrossTab:Header:attribute-id:[Null]:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dw_product_id" order="Asc" />
+            <Field field="site-id" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1290" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="dw_product_id" action="GroupBy" rename="dw_product_id" />
+            <SummarizeField field="upc" action="Max" rename="upc" />
+            <SummarizeField field="display_name" action="Max" rename="display_name" />
+            <SummarizeField field="Load_date" action="Max" rename="Load_date" />
+            <SummarizeField field="Load_by" action="Max" rename="Load_by" />
+            <SummarizeField field="ean" action="Max" rename="ean" />
+            <SummarizeField field="unit" action="Max" rename="unit" />
+            <SummarizeField field="online_flag" action="Max" rename="online_flag" />
+            <SummarizeField field="online_flag_site" action="Max" rename="online_flag_site" />
+            <SummarizeField field="brand" action="Max" rename="brand" />
+            <SummarizeField field="benefit1" action="Max" rename="benefit1" />
+            <SummarizeField field="benefit2" action="Max" rename="benefit2" />
+            <SummarizeField field="benefit3" action="Max" rename="benefit3" />
+            <SummarizeField field="categoryProductSystem" action="Max" rename="categoryProductSystem" />
+            <SummarizeField field="categoryProductUse" action="Max" rename="categoryProductUse" />
+            <SummarizeField field="categorySkinConcern" action="Max" rename="categorySkinConcern" />
+            <SummarizeField field="howToUse" action="Max" rename="howToUse" />
+            <SummarizeField field="ingredients" action="Max" rename="ingredients" />
+            <SummarizeField field="isRewardProduct" action="Max" rename="isRewardProduct" />
+            <SummarizeField field="isSale" action="Max" rename="isSale" />
+            <SummarizeField field="isTaxExempt" action="Max" rename="isTaxExempt" />
+            <SummarizeField field="mediumDescription" action="Max" rename="mediumDescription" />
+            <SummarizeField field="PR_QandAURL" action="Max" rename="PR_QandAURL" />
+            <SummarizeField field="PR_ReviewURL" action="Max" rename="PR_ReviewURL" />
+            <SummarizeField field="quickTip" action="Max" rename="quickTip" />
+            <SummarizeField field="shortestDescription" action="Max" rename="shortestDescription" />
+            <SummarizeField field="skinCondition1" action="Max" rename="skinCondition1" />
+            <SummarizeField field="skinCondition2" action="Max" rename="skinCondition2" />
+            <SummarizeField field="skinCondition3" action="Max" rename="skinCondition3" />
+            <SummarizeField field="min_order_quantity" action="Max" rename="min_order_quantity" />
+            <SummarizeField field="step_quantity" action="Max" rename="step_quantity" />
+            <SummarizeField field="short_description" action="Max" rename="short_description" />
+            <SummarizeField field="long_description" action="Max" rename="long_description" />
+            <SummarizeField field="store_force_price_flag" action="Max" rename="store_force_price_flag" />
+            <SummarizeField field="store_non_inventory_flag" action="Max" rename="store_non_inventory_flag" />
+            <SummarizeField field="store_non_discountable_flag" action="Max" rename="store_non_discountable_flag" />
+            <SummarizeField field="available_flag" action="Max" rename="available_flag" />
+            <SummarizeField field="searchable_flag" action="Max" rename="searchable_flag" />
+            <SummarizeField field="page_title" action="Max" rename="page_title" />
+            <SummarizeField field="page_description" action="Max" rename="page_description" />
+            <SummarizeField field="page_keywords" action="Max" rename="page_keywords" />
+            <SummarizeField field="page_url" action="Max" rename="page_url" />
+            <SummarizeField field="star_rating" action="Max" rename="star_rating" />
+            <SummarizeField field="star_rating_base" action="Max" rename="star_rating_base" />
+            <SummarizeField field="star_rating_count" action="Max" rename="star_rating_count" />
+            <SummarizeField field="categoryFeatured" action="Max" rename="category_featured" />
+            <SummarizeField field="store_non_revenue_flag" action="Max" rename="store_non_revenue_flag" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TRIM([dw_product_id])" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="TRIM([upc])" field="upc" size="50" type="V_String" />
+            <FormulaField expression="IF TRIM([display_name])=NULL() THEN '' &#xA;ELSE TRIM([display_name]) ENDIF" field="display_name" size="100" type="V_WString" />
+            <FormulaField expression="TRIM([online_flag])" field="online_flag" size="5" type="V_String" />
+            <FormulaField expression="IF TRIM([online_flag_site])=NULL() THEN '' &#xA;ELSE TRIM([online_flag_site])&#xA;ENDIF" field="online_flag_site" size="50" type="V_String" />
+            <FormulaField expression="TRIM([categoryProductSystem])" field="categoryProductSystem" size="2048" type="V_WString" />
+            <FormulaField expression="TRIM([categoryProductUse])" field="categoryProductUse" size="2048" type="V_WString" />
+            <FormulaField expression="DateTimeNow()" field="Load_date" size="19" type="DateTime" />
+            <FormulaField expression="'dw_ProductDataExtract.yxmd'" field="Load_by" size="50" type="V_String" />
+            <FormulaField expression="TRIM([unit])" field="unit" size="50" type="V_String" />
+            <FormulaField expression="ToNumber([min-order-quantity])" field="min_order_quantity" size="8" type="Int64" />
+            <FormulaField expression="trim([ean])" field="ean" size="50" type="V_String" />
+            <FormulaField expression="ToNumber([step-quantity])" field="step_quantity" size="8" type="Int64" />
+            <FormulaField expression="trim([short-description])" field="short_description" size="2048" type="V_WString" />
+            <FormulaField expression="trim([long-description])" field="long_description" size="5000" type="V_WString" />
+            <FormulaField expression="tonumber([store-force-price-flag])" field="store_force_price_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store-non-inventory-flag])" field="store_non_inventory_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store-non-revenue-flag])" field="store_non_revenue_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store-non-discountable-flag])" field="store_non_discountable_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([available-flag])" field="available_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([searchable-flag])" field="searchable_flag" size="1" type="Byte" />
+            <FormulaField expression="trim([page-title])" field="page_title" size="200" type="V_WString" />
+            <FormulaField expression="trim([page-description])" field="page_description" size="200" type="V_WString" />
+            <FormulaField expression="trim([page-keywords])" field="page_keywords" size="200" type="V_WString" />
+            <FormulaField expression="trim([page-url])" field="page_url" size="200" type="V_WString" />
+            <FormulaField expression="trim([benefit1])" field="benefit1" size="2048" type="V_WString" />
+            <FormulaField expression="trim(benefit2)" field="benefit2" size="2048" type="V_WString" />
+            <FormulaField expression="trim(benefit3)" field="benefit3" size="2048" type="V_WString" />
+            <FormulaField expression="trim([categorySkinConcern])" field="categorySkinConcern" size="2048" type="V_WString" />
+            <FormulaField expression="trim([howToUse])" field="howToUse" size="5000" type="V_WString" />
+            <FormulaField expression="trim([ingredients])" field="ingredients" size="5000" type="V_WString" />
+            <FormulaField expression="trim([mediumDescription])" field="mediumDescription" size="5000" type="V_WString" />
+            <FormulaField expression="trim([quickTip])" field="quickTip" size="2048" type="V_WString" />
+            <FormulaField expression="trim([shortestDescription])" field="shortestDescription" size="2048" type="V_WString" />
+            <FormulaField expression="trim([skinCondition1])" field="skinCondition1" size="2048" type="V_WString" />
+            <FormulaField expression="trim([skinCondition2])" field="skinCondition2" size="2048" type="V_WString" />
+            <FormulaField expression="trim([skinCondition3])" field="skinCondition3" size="2048" type="V_WString" />
+            <FormulaField expression="tonumber([StarRating])" field="star_rating" size="50" type="V_WString" />
+            <FormulaField expression="tonumber([StarRatingBase])" field="star_rating_base" size="50" type="V_WString" />
+            <FormulaField expression="tonumber([StarRatingCount])" field="star_rating_count" size="50" type="V_WString" />
+            <FormulaField expression="tonumber([isRewardProduct])" field="isRewardProduct" size="2048" type="V_WString" />
+            <FormulaField expression="tonumber([isSale])" field="isSale" size="2048" type="V_WString" />
+            <FormulaField expression="tonumber([store-force-price-flag])" field="store_force_price_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store-non-inventory-flag])" field="store_non_inventory_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store_non_revenue_flag])" field="store_non_revenue_flag" size="1" type="Byte" />
+            <FormulaField expression="tonumber([store-non-discountable-flag])" field="store_non_discountable_flag" size="1" type="Byte" />
+            <FormulaField expression="trim([PR_QandAURL])" field="PR_QandAURL" size="2048" type="V_WString" />
+            <FormulaField expression="trim([PR_ReviewURL])" field="PR_ReviewURL" size="2048" type="V_WString" />
+            <FormulaField expression="trim([brand])" field="Brand" size="50" type="V_String" />
+            <FormulaField expression="trim([categoryFeatured])" field="categoryFeatured" size="2048" type="V_WString" />
+            <FormulaField expression="tonumber([isTaxExempt])" field="isTaxExempt" size="2048" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = TRIM([dw_product_id])
+upc = TRIM([upc])
+display_name = IF TRIM([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="798" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="dw_product_id" selected="True" size="10" />
+            <SelectField field="site-id" selected="True" rename="site_id" size="50" />
+            <SelectField field="SKU" selected="True" size="50" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2238" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">aka:MSSQL04-Alteryx|||[DemandWare].[dbo].[dw_ProductDataExtractSite]</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:MSSQL04-Alteryx
+Table=[DemandWare].[dbo].[dw_ProductDataExtractSite]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1218" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[SKU] != "NA"</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 09:49:12</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-07 09:49:12</StartDate>
+              <EndDate>2018-12-07 09:49:12</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[SKU] != "NA"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF TRIM([dw_product_id]) = NULL() THEN '' &#xA;ELSE  TRIM([dw_product_id]) ENDIF" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF TRIM([site_id])=NULL() THEN 'Default' ELSE TRIM([site_id]) ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="IF IsNull(TRIM([SKU])) or  IsEmpty(TRIM([SKU])) THEN 'NA' &#xA;ELSE TRIM([SKU]) ENDIF" field="SKU" size="50" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = IF TRIM([dw_product_id]) = NULL() THEN '' 
+ELSE  TRIM([dw_produc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'Dermalogica' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Default-Dermalogica</Name>
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'Dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'dermalogica-ca' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1506" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1638" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="dw_product_id" action="GroupBy" rename="dw_product_id" />
+            <SummarizeField field="site_id" action="GroupBy" rename="site_id" />
+            <SummarizeField field="default_value" action="Min" rename="Min_default_value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="[site_id]" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="0" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = [site_id]
+SKU = [SKU]
+default_value = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1638" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="dw_product_id" selected="True" />
+            <SelectField field="site_id" selected="True" />
+            <SelectField field="SKU" selected="True" />
+            <SelectField field="default_value" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1866" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Min_default_value" />
+            <Field field="dw_product_id" />
+            <Field field="site_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="default_value" />
+            <Field field="dw_product_id" />
+            <Field field="site_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_dw_product_id" selected="True" rename="Right_dw_product_id" />
+                <SelectField field="Right_site_id" selected="True" rename="Right_site_id" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1974" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="dw_product_id" selected="True" />
+            <SelectField field="site_id" selected="True" />
+            <SelectField field="SKU" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2058" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="[site_id]" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="DateTimeNow()" field="load_date" size="19" type="DateTime" />
+            <FormulaField expression="'dw_ProductDataExtract.yxmd'" field="load_by" size="100" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = [site_id]
+SKU = [SKU]
+load_date = Date...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2142" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[site_id] != "Default"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>site_id</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 10:01:24</PeriodDate>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Default</Operand>
+              <StartDate>2018-12-07 10:01:24</StartDate>
+              <EndDate>2018-12-07 10:01:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[site_id] != "Default"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'dermalogica-au' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1362" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'dermalogica-uk' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1362" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'dermalogica-gb' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[dw_product_id]" field="dw_product_id" size="10" type="V_String" />
+            <FormulaField expression="IF [site_id]='Default' THEN 'dermalogica-de' ELSE [site_id] ENDIF" field="site_id" size="50" type="V_String" />
+            <FormulaField expression="[SKU]" field="SKU" size="50" type="V_WString" />
+            <FormulaField expression="1" field="default_value" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dw_product_id = [dw_product_id]
+site_id = IF [site_id]='Default' THEN 'dermalogi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="234" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>page-attributes_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="True" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product" size="311" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-id" size="10" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="ean_OuterXML" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc" size="13" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="upc_OuterXML" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="unit_OuterXML" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="min-order-quantity_OuterXML" size="42" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="step-quantity_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="display-name_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_OuterXML" size="108" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description" size="529" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_OuterXML" size="589" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description" size="4999" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_xml:lang" size="9" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_OuterXML" size="5601" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="store-force-price-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-force-price-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-inventory-flag_OuterXML" size="58" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-revenue-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-non-discountable-flag_OuterXML" size="64" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_OuterXML" size="32" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_2_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="available-flag_OuterXML" size="38" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_OuterXML" size="40" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images" size="282" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="images_OuterXML" size="5395" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-included-flag_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency" size="7" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="sitemap-changefrequency_OuterXML" size="80" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes" size="152" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="page-attributes_OuterXML" size="1712" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="custom-attributes" size="997" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="custom-attributes_OuterXML" size="15085" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="variations" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="variations_OuterXML" size="2650" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category" size="34" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="classification-category_OuterXML" size="121" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="pinterest-enabled-flag_OuterXML" size="54" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_OuterXML" size="52" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes" size="61" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="store-attributes_OuterXML" size="280" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product_OuterXML" size="48365" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="classification-category_catalog-id" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2" size="5055" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_2_OuterXML" size="5653" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3" size="4877" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_3_OuterXML" size="5475" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_3_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2" size="45" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_3_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_4_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_4_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id" size="6" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="tax-class-id_OuterXML" size="35" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_2_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_OuterXML" size="94" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_5_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5" size="37" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="display-name_5_OuterXML" size="87" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2" size="269" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_2_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_2_OuterXML" size="325" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3" size="200" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_3_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_3_OuterXML" size="256" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4" size="4842" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="long-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_4_OuterXML" size="5440" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="brand" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="brand_OuterXML" size="29" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_OuterXML" size="73" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2" size="24" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_2_OuterXML" size="76" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="facebook-enabled-flag_2_OuterXML" size="77" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5" size="740" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="long-description_5_OuterXML" size="890" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options" size="22" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="options_OuterXML" size="663" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_OuterXML" size="63" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank" size="1" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-rank_OuterXML" size="28" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4" size="120" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="short-description_4_xml:lang" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="short-description_4_OuterXML" size="176" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_WString" />
+            <Field name="online-flag_6" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_6_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_7_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_8_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-flag_9_OuterXML" size="57" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="search-placement_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="online-from_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products" size="48" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="product-set-products_OuterXML" size="217" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2" size="4" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_site-id" size="11" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-if-unavailable-flag_2_OuterXML" size="91" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3" size="5" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_site-id" size="14" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="searchable-flag_3_OuterXML" size="65" source="File: C:\Alteryx input\Catalog_dermalogica.xml" type="V_String" />
+            <Field name="custom-attribute" size="3506" type="V_WString" />
+            <Field name="attribute-id" size="21" type="V_String" />
+            <Field name="xml:lang" size="9" type="V_String" />
+            <Field name="site-id" size="14" type="V_String" />
+            <Field name="value" size="11" type="V_String" />
+            <Field name="page-attributes2" size="152" type="V_String" />
+            <Field name="page-title" size="102" type="V_WString" />
+            <Field name="page-title_xml:lang" size="9" type="V_String" />
+            <Field name="page-description" size="216" type="V_WString" />
+            <Field name="page-description_xml:lang" size="9" type="V_String" />
+            <Field name="page-keywords" size="315" type="V_String" />
+            <Field name="page-keywords_xml:lang" size="9" type="V_String" />
+            <Field name="page-url" size="131" type="V_String" />
+            <Field name="page-url_xml:lang" size="9" type="V_String" />
+            <Field name="page-title_2" size="81" type="V_String" />
+            <Field name="page-title_2_xml:lang" size="5" type="V_String" />
+            <Field name="page-description_2" size="154" type="V_WString" />
+            <Field name="page-description_2_xml:lang" size="5" type="V_String" />
+            <Field name="page-description_3" size="120" type="V_WString" />
+            <Field name="page-description_3_xml:lang" size="5" type="V_String" />
+            <Field name="page-title_3" size="71" type="V_String" />
+            <Field name="page-title_3_xml:lang" size="5" type="V_String" />
+            <Field name="page-title_4" size="71" type="V_String" />
+            <Field name="page-title_4_xml:lang" size="5" type="V_String" />
+            <Field name="page-description_4" size="120" type="V_WString" />
+            <Field name="page-description_4_xml:lang" size="5" type="V_String" />
+            <Field name="page-url_2" size="74" type="V_String" />
+            <Field name="page-url_2_xml:lang" size="5" type="V_String" />
+            <Field name="page-url_3" size="69" type="V_String" />
+            <Field name="page-url_3_xml:lang" size="5" type="V_String" />
+            <Field name="page-keywords_2" size="114" type="V_String" />
+            <Field name="page-keywords_2_xml:lang" size="5" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="570" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="dw_product_id" />
+            <Field field="ean" />
+            <Field field="upc" />
+            <Field field="unit" />
+            <Field field="min-order-quantity" />
+            <Field field="step-quantity" />
+            <Field field="display_name" />
+            <Field field="short-description" />
+            <Field field="long-description" />
+            <Field field="store-force-price-flag" />
+            <Field field="store-non-inventory-flag" />
+            <Field field="store-non-revenue-flag" />
+            <Field field="store-non-discountable-flag" />
+            <Field field="online_flag" />
+            <Field field="online_flag_site" />
+            <Field field="available-flag" />
+            <Field field="searchable-flag" />
+            <Field field="page-attributes_OuterXML" />
+            <Field field="brand" />
+            <Field field="page-title" />
+            <Field field="page-description" />
+            <Field field="page-keywords" />
+            <Field field="page-url" />
+          </GroupFields>
+          <HeaderField field="attribute-id" />
+          <DataField field="custom-attribute" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dw_product_id" size="10" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="ean" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="upc" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="unit" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="min-order-quantity" size="1" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="step-quantity" size="1" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="display_name" size="100" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="short-description" size="4000" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="long-description" size="5000" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="store-force-price-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="store-non-inventory-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="store-non-revenue-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="store-non-discountable-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="online_flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="online_flag_site" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="available-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="searchable-flag" size="5" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="page-attributes_OuterXML" size="1712" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="brand" size="50" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="page-title" size="200" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="page-description" size="500" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="page-keywords" size="500" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="page-url" size="200" source="CrossTab:Group:Concat:" type="V_String" />
+            <Field name="benefit1" size="2048" source="CrossTab:Header:attribute-id:benefit1:Concat:" type="V_WString" />
+            <Field name="benefit2" size="2048" source="CrossTab:Header:attribute-id:benefit2:Concat:" type="V_WString" />
+            <Field name="benefit3" size="2048" source="CrossTab:Header:attribute-id:benefit3:Concat:" type="V_WString" />
+            <Field name="categoryFeatured" size="2048" source="CrossTab:Header:attribute-id:categoryFeatured:Concat:" type="V_WString" />
+            <Field name="categoryProductSystem" size="2048" source="CrossTab:Header:attribute-id:categoryProductSystem:Concat:" type="V_WString" />
+            <Field name="categoryProductUse" size="2048" source="CrossTab:Header:attribute-id:categoryProductUse:Concat:" type="V_WString" />
+            <Field name="categorySkinConcern" size="2048" source="CrossTab:Header:attribute-id:categorySkinConcern:Concat:" type="V_WString" />
+            <Field name="howToUse" size="2048" source="CrossTab:Header:attribute-id:howToUse:Concat:" type="V_WString" />
+            <Field name="ingredients" size="2048" source="CrossTab:Header:attribute-id:ingredients:Concat:" type="V_WString" />
+            <Field name="isRewardProduct" size="2048" source="CrossTab:Header:attribute-id:isRewardProduct:Concat:" type="V_WString" />
+            <Field name="isSale" size="2048" source="CrossTab:Header:attribute-id:isSale:Concat:" type="V_WString" />
+            <Field name="isTaxExempt" size="2048" source="CrossTab:Header:attribute-id:isTaxExempt:Concat:" type="V_WString" />
+            <Field name="mediumDescription" size="2048" source="CrossTab:Header:attribute-id:mediumDescription:Concat:" type="V_WString" />
+            <Field name="notAvailable" size="2048" source="CrossTab:Header:attribute-id:notAvailable:Concat:" type="V_WString" />
+            <Field name="notAvailableLbl" size="2048" source="CrossTab:Header:attribute-id:notAvailableLbl:Concat:" type="V_WString" />
+            <Field name="notAvailableUrl" size="2048" source="CrossTab:Header:attribute-id:notAvailableUrl:Concat:" type="V_WString" />
+            <Field name="pdp_thumbnails_vid" size="2048" source="CrossTab:Header:attribute-id:pdp-thumbnails-vid:Concat:" type="V_WString" />
+            <Field name="pdpBelowContent" size="2048" source="CrossTab:Header:attribute-id:pdpBelowContent:Concat:" type="V_WString" />
+            <Field name="pdpTopContent" size="2048" source="CrossTab:Header:attribute-id:pdpTopContent:Concat:" type="V_WString" />
+            <Field name="productPress" size="2048" source="CrossTab:Header:attribute-id:productPress:Concat:" type="V_WString" />
+            <Field name="productVideo" size="2048" source="CrossTab:Header:attribute-id:productVideo:Concat:" type="V_WString" />
+            <Field name="productVideoImage" size="2048" source="CrossTab:Header:attribute-id:productVideoImage:Concat:" type="V_WString" />
+            <Field name="productVideoThumb" size="2048" source="CrossTab:Header:attribute-id:productVideoThumb:Concat:" type="V_WString" />
+            <Field name="PR_QandAURL" size="2048" source="CrossTab:Header:attribute-id:PR_QandAURL:Concat:" type="V_WString" />
+            <Field name="PR_ReviewURL" size="2048" source="CrossTab:Header:attribute-id:PR_ReviewURL:Concat:" type="V_WString" />
+            <Field name="quickTip" size="2048" source="CrossTab:Header:attribute-id:quickTip:Concat:" type="V_WString" />
+            <Field name="shade" size="2048" source="CrossTab:Header:attribute-id:shade:Concat:" type="V_WString" />
+            <Field name="shortDescription" size="2048" source="CrossTab:Header:attribute-id:shortDescription:Concat:" type="V_WString" />
+            <Field name="shortestDescription" size="2048" source="CrossTab:Header:attribute-id:shortestDescription:Concat:" type="V_WString" />
+            <Field name="size" size="2048" source="CrossTab:Header:attribute-id:size:Concat:" type="V_WString" />
+            <Field name="skinCondition1" size="2048" source="CrossTab:Header:attribute-id:skinCondition1:Concat:" type="V_WString" />
+            <Field name="skinCondition2" size="2048" source="CrossTab:Header:attribute-id:skinCondition2:Concat:" type="V_WString" />
+            <Field name="skinCondition3" size="2048" source="CrossTab:Header:attribute-id:skinCondition3:Concat:" type="V_WString" />
+            <Field name="StarRating" size="2048" source="CrossTab:Header:attribute-id:StarRating:Concat:" type="V_WString" />
+            <Field name="StarRatingBase" size="2048" source="CrossTab:Header:attribute-id:StarRatingBase:Concat:" type="V_WString" />
+            <Field name="StarRatingCount" size="2048" source="CrossTab:Header:attribute-id:StarRatingCount:Concat:" type="V_WString" />
+            <Field name="valueSetPricing" size="2048" source="CrossTab:Header:attribute-id:valueSetPricing:Concat:" type="V_WString" />
+            <Field name="_Null_" size="2048" source="CrossTab:Header:attribute-id:[Null]:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="dw_product_id" order="Asc" />
+            <Field field="ean" order="Asc" />
+            <Field field="upc" order="Asc" />
+            <Field field="unit" order="Asc" />
+            <Field field="min-order-quantity" order="Asc" />
+            <Field field="step-quantity" order="Asc" />
+            <Field field="display_name" order="Asc" />
+            <Field field="short-description" order="Asc" />
+            <Field field="long-description" order="Asc" />
+            <Field field="store-force-price-flag" order="Asc" />
+            <Field field="store-non-inventory-flag" order="Asc" />
+            <Field field="store-non-revenue-flag" order="Asc" />
+            <Field field="store-non-discountable-flag" order="Asc" />
+            <Field field="online_flag" order="Asc" />
+            <Field field="online_flag_site" order="Asc" />
+            <Field field="available-flag" order="Asc" />
+            <Field field="searchable-flag" order="Asc" />
+            <Field field="page-attributes_OuterXML" order="Asc" />
+            <Field field="brand" order="Asc" />
+            <Field field="page-title" order="Asc" />
+            <Field field="page-description" order="Asc" />
+            <Field field="page-keywords" order="Asc" />
+            <Field field="page-url" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[attribute-id] != "SKU"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>attribute-id</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 16:44:27</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>SKU</Operand>
+              <StartDate>2018-12-07 16:44:27</StartDate>
+              <EndDate>2018-12-07 16:44:27</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[attribute-id] != "SKU"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ean" selected="True" size="50" />
+            <SelectField field="upc" selected="True" size="50" />
+            <SelectField field="unit" selected="True" size="50" />
+            <SelectField field="min-order-quantity" selected="True" size="10" />
+            <SelectField field="step-quantity" selected="True" size="10" />
+            <SelectField field="display_name" selected="True" size="100" />
+            <SelectField field="short-description" selected="True" size="1000" />
+            <SelectField field="long-description" selected="True" size="5000" />
+            <SelectField field="online_flag_site" selected="True" size="50" />
+            <SelectField field="page-attributes_OuterXML" selected="False" />
+            <SelectField field="brand" selected="True" size="50" />
+            <SelectField field="page-title" selected="True" size="200" />
+            <SelectField field="page-description" selected="True" size="200" />
+            <SelectField field="page-keywords" selected="True" size="200" />
+            <SelectField field="page-url" selected="True" size="200" />
+            <SelectField field="howToUse" selected="True" size="5000" />
+            <SelectField field="ingredients" selected="True" size="5000" />
+            <SelectField field="mediumDescription" selected="True" size="5000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="46" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Join" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="True" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dw_ProductDataExtract</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+      <Event>
+        <Description>Before Run: Run cmd.exe</Description>
+        <When>Before</When>
+        <SendMail value="False" />
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <cmd_Program>C:\Windows\System32\cmd.exe</cmd_Program>
+        <cmd_CommandLine>/c C:\scripts\copy_product_catalog_xml.bat</cmd_CommandLine>
+        <cmd_WorkingDir />
+        <cmd_Timeout value="30" />
+      </Event>
+    </Events>
+  </Properties>
+</AlteryxDocument>
